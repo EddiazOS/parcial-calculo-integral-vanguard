@@ -58,7 +58,7 @@
 // ---------- Instrucciones ----------
 *Instrucciones:* Antes de empezar verifique que su examen esté completo y que sus datos sean correctos. Por favor verifique que su celular esté apagado. No está permitido el uso de calculadora ni de otros aparatos electrónicos. Solucione las preguntas en los espacios en blanco asignados a cada una de ellas. No está permitido sacar hojas en blanco ni ningún tipo de apuntes durante el examen. *Duración:* 1 hora y 40 minutos.
 
-En los ejercicios 1 a 5 muestre detalladamente el procedimiento hasta llegar a la respuesta correcta. *El procedimiento correcto sí será tenido en cuenta en la calificación.* Emplee tinta (no lápiz).
+En los ejercicios 1 a 5 muestre detalladamente el procedimiento hasta llegar a la respuesta correcta. *El procedimiento correcto sí será tenido en cuenta en la calificación.* 
 
 #v(0.2cm)
 #line(length: 100%, stroke: 0.6pt)
