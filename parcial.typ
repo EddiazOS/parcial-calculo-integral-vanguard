@@ -42,15 +42,16 @@
   columns: (1fr, 1fr, 1fr),
   column-gutter: 0.8cm,
   row-gutter: 0.5cm,
-  [*Nombre:* #h(0.2cm) #box(width: 1fr, line(length: 4.5cm, stroke: 0.5pt))],
+  [*Nombre:* #h(0.2cm) #box(width: 1fr, line(length: 3.5cm, stroke: 0.5pt))],
   [*Cédula:* #h(0.2cm) #box(width: 1fr, line(length: 3.5cm, stroke: 0.5pt))],
   [*Grupo:* #h(0.2cm) #box(width: 1fr, line(length: 3cm, stroke: 0.5pt))],
 )
 
 #v(0.2cm)
-[*Firma:* #h(0.2cm) #line(length: 6cm, stroke: 0.5pt) #h(1cm) _(Entiendo que cometer fraude es una falta disciplinaria grave)_]
 
-#v(0.4cm)
+#block[*Firma:* #h(0.5cm) #box(line(length: 6cm, stroke: 0.5pt)) #h(1cm)]
+
+#v(1.4cm)
 #line(length: 100%, stroke: 0.6pt)
 #v(0.2cm)
 
@@ -81,10 +82,9 @@ En los ejercicios 1 a 5 muestre detalladamente el procedimiento hasta llegar a l
   *2.* (20%) Interprete el siguiente límite como una integral definida en el intervalo $[0, 1]$
   y evalúelo:
   $
-    lim_(n -> infinity) sum_(i=1)^n frac(i \ /\ n^2,\,i^2 + 2n^2) / n
+    lim_(n -> infinity) sum_(i=1)^n frac(i, i^2 + 2n^2)
   $
-  Es decir, calcule $display(lim_(n->oo) sum_(i=1)^n frac(i, i^2 + 2n^2))$ identificando la
-  suma de Riemann correspondiente y evaluando la integral resultante.
+  Para ello, identifique la suma de Riemann correspondiente y evalúe la integral resultante.
 
   #v(5.5cm)
 ]
@@ -118,7 +118,7 @@ En los ejercicios 1 a 5 muestre detalladamente el procedimiento hasta llegar a l
   #v(6cm)
 ]
 
-#v(0.5cm)
+#v(5.5cm)
 #line(length: 100%, stroke: 0.4pt)
 #v(0.2cm)
 #align(center)[#text(size: 9pt, style: "italic")[Emplee el espacio disponible para realizar los ejercicios. Si necesita más espacio, utilice el reverso de la hoja correspondiente.]]
